@@ -1,0 +1,136 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7ecd0; /* Cor de fundo quente */
+    color: #4d4d4d; /* Cor do texto principal */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e29578; /* Cor de destaque quente */
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff; /* Cor do texto do cabeçalho */
+}
+
+header p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #e29578;
+    padding: 15px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Banner */
+#banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Menu */
+#menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#menu h2 {
+    font-size: 28px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Ambiente */
+#ambiente {
+    padding: 50px 0;
+    background-color: #f7ecd0;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Localização */
+#localizacao {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#localizacao address {
+    font-style: normal;
+}
+
+#localizacao a {
+    text-decoration: none;
+    color: #e29578; /* Cor de destaque quente */
+}
+
+/* Contato */
+#contato {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contato ul {
+    list-style-type: none;
+}
+
+#contato li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #e29578;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #4d4d4d; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 10px 0;
+}
